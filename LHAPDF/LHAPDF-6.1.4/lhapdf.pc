@@ -1,0 +1,13 @@
+prefix=/afs/cern.ch/work/h/hbehnami/WPolar/LHAPDF/LHAPDF-6.1.4/../local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+datarootdir=${prefix}/share
+
+Name: lhapdf
+Description: LHAPDF parton density library
+URL: https://lhapdf.hepforge.org
+Version: 6.1.4
+Libs: -L${exec_prefix}/lib -lLHAPDF
+Cflags: -I${prefix}/include
+#-I-I/afs/cern.ch/sw/lcg/external/Boost/1.47.0_python2.6/x86_64-slc5-gcc43-opt/include/boost-1_47
